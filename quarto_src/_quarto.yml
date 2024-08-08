@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: "Engage"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - explore.qmd
+      - play.qmd
+      - learn.qmd
+      - docs.qmd
+
+format:
+  html:
+    theme: 
+      light: 
+        - flatly
+        - engage-light.scss
+      dark:
+        - flatly
+        - engage-dark.scss
+    css: styles.css
+
+
+

@@ -1,38 +1,24 @@
 [
   {
-    "objectID": "learn.html",
-    "href": "learn.html",
+    "objectID": "learn/slides/slides_cellular_potts.html#slide-title-without-.smaller",
+    "href": "learn/slides/slides_cellular_potts.html#slide-title-without-.smaller",
     "title": "Engage",
-    "section": "",
-    "text": "This page will list incremental simulations aimed at learning new concepts."
+    "section": "Slide Title (without .smaller)",
+    "text": "Slide Title (without .smaller)\n\nBullet Point 1\nBullet Point 2"
   },
   {
-    "objectID": "docs.html",
-    "href": "docs.html",
-    "title": "Documentation",
-    "section": "",
-    "text": "Instructions on creating and submitting your own simulations"
-  },
-  {
-    "objectID": "explore.html",
-    "href": "explore.html",
+    "objectID": "learn/slides/slides_cellular_potts.html#slide-title-with-.smaller",
+    "href": "learn/slides/slides_cellular_potts.html#slide-title-with-.smaller",
     "title": "Engage",
-    "section": "",
-    "text": "This page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)"
+    "section": "Slide Title (with .smaller)",
+    "text": "Slide Title (with .smaller)\n\nBullet Point 1\nBullet Point 2"
   },
   {
-    "objectID": "play.html",
-    "href": "play.html",
+    "objectID": "learn/slides/slides_cellular_potts.html#third-slide",
+    "href": "learn/slides/slides_cellular_potts.html#third-slide",
     "title": "Engage",
-    "section": "",
-    "text": "This page will list the more game-y simulations."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "section": "Third slide",
+    "text": "Third slide"
   },
   {
     "objectID": "index.html",
@@ -42,10 +28,45 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
-    "objectID": "about.html#about-engage",
-    "href": "about.html#about-engage",
+    "objectID": "learn.html",
+    "href": "learn.html",
     "title": "Engage",
     "section": "",
-    "text": "About this site"
+    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nCellular Potts Model"
+  },
+  {
+    "objectID": "learn.html#learn",
+    "href": "learn.html#learn",
+    "title": "Engage",
+    "section": "",
+    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nCellular Potts Model"
+  },
+  {
+    "objectID": "explore.html",
+    "href": "explore.html",
+    "title": "Engage",
+    "section": "",
+    "text": "This page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)"
+  },
+  {
+    "objectID": "docs.html",
+    "href": "docs.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Instructions on creating and submitting your own simulations\nRoughly 1. Fork the repository 2. Add qmd file and js files … 3. start a pull request"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "A website containing interactive complex systems simulations!"
+  },
+  {
+    "objectID": "play.html",
+    "href": "play.html",
+    "title": "Engage",
+    "section": "",
+    "text": "This page will list the more game-y simulations."
   }
 ]

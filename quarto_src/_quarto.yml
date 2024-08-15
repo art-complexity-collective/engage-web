@@ -24,9 +24,6 @@ format:
       light: 
         - flatly
         - engage-light.scss
-      dark:
-        - darkly
-        - engage-dark.scss
     css: styles.css
 
 

@@ -2,4 +2,9 @@
 title: "Documentation"
 ---
 
-Instructions on creating and submitting your own simulations
+Instructions on creating and submitting your own simulations 
+
+Roughly
+1. Fork the repository
+2. Add qmd file and js files ...
+3. start a pull request

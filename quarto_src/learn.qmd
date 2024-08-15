@@ -1,1 +1,5 @@
-This page will list incremental simulations aimed at learning new concepts.
+
+## Learn 
+Simulations aimed at teaching new concepts in an interactive manner.
+
+1. [Cellular Potts Model](./learn/cellular_potts.qmd)

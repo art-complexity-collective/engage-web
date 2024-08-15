@@ -1,0 +1,14 @@
+---
+format:
+    html:
+        page-layout: custom
+---
+
+
+
+```{=html}
+<div style="height: 89vh;">
+<iframe style="position:relative; width: 100%; height:100%; frameborder:0;" src="slides/slides_cellular_potts.html">
+</iframe>
+</div>
+```

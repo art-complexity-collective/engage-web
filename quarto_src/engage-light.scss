@@ -1,5 +1,14 @@
 /*-- scss:functions --*/
 
 /*-- scss:defaults --*/
+$engage-light-text: #0e0606;
+$engage-light-bg: #ffffff;
+$engage-light-primary: #b8515f;
+$engage-light-secondary: #a4dad7;
+$engage-light-accent: #7a84c7;
 
+$body-bg: $engage-light-bg !default;
+$body-color: $engage-light-text !default;
+$primary: $engage-light-primary !default;
+$secondary: $engage-light-secondary !default;
 /*-- scss:rules --*/

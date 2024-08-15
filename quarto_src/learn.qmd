@@ -1,5 +1,1 @@
----
-title: "About"
----
-
-About this site
+This page will list incremental simulations aimed at learning new concepts.

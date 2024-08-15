@@ -6,13 +6,17 @@ website:
   title: "Engage"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
-      - explore.qmd
-      - play.qmd
-      - learn.qmd
-      - docs.qmd
+      - text: "explore"
+        href: explore.qmd
+      - text: "play"
+        href: play.qmd
+      - text: "learn"
+        href: learn.qmd
+    right:
+      - text: "about"
+        href: about.qmd
+      - text: "docs"
+        href: docs.qmd
 
 format:
   html:
@@ -21,7 +25,7 @@ format:
         - flatly
         - engage-light.scss
       dark:
-        - flatly
+        - darkly
         - engage-dark.scss
     css: styles.css
 

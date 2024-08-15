@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Documentation"
 ---
 
-About this site
+Instructions on creating and submitting your own simulations

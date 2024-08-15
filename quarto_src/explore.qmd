@@ -1,5 +1,1 @@
----
-title: "About"
----
-
-About this site
+This page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)

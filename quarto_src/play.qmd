@@ -1,5 +1,2 @@
----
-title: "About"
----
 
-About this site
+This page will list the more game-y simulations.

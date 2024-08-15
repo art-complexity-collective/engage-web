@@ -1,5 +1,14 @@
 /*-- scss:functions --*/
 
 /*-- scss:defaults --*/
+$engage-dark-text: #f9f1f1;
+$engage-dark-bg: #000000;
+$engage-dark-primary: #ae4755;
+$engage-dark-secondary: #255b58;
+$engage-dark-accent: #384285;
 
+$body-bg: $engage-dark-bg !default;
+$body-color: $engage-dark-text !default;
+$primary: $engage-dark-primary !default;
+$secondary: $engage-dark-secondary !default;
 /*-- scss:rules --*/

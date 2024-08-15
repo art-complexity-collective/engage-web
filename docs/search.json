@@ -2,30 +2,30 @@
   {
     "objectID": "learn.html",
     "href": "learn.html",
-    "title": "About",
+    "title": "Engage",
     "section": "",
-    "text": "About this site"
+    "text": "This page will list incremental simulations aimed at learning new concepts."
   },
   {
     "objectID": "docs.html",
     "href": "docs.html",
-    "title": "About",
+    "title": "Documentation",
     "section": "",
-    "text": "About this site"
+    "text": "Instructions on creating and submitting your own simulations"
   },
   {
     "objectID": "explore.html",
     "href": "explore.html",
-    "title": "About",
+    "title": "Engage",
     "section": "",
-    "text": "About this site"
+    "text": "This page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)"
   },
   {
     "objectID": "play.html",
     "href": "play.html",
-    "title": "About",
+    "title": "Engage",
     "section": "",
-    "text": "About this site"
+    "text": "This page will list the more game-y simulations."
   },
   {
     "objectID": "about.html",
@@ -37,8 +37,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Home",
+    "title": "Engage",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html#about-engage",
+    "href": "about.html#about-engage",
+    "title": "Engage",
+    "section": "",
+    "text": "About this site"
   }
 ]

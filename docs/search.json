@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "learn/slides/slides_cellular_potts.html#section",
+    "href": "learn/slides/slides_cellular_potts.html#section",
+    "title": "Engage",
+    "section": "",
+    "text": "This is slide 1!"
+  },
+  {
+    "objectID": "learn/slides/slides_cellular_potts.html#section-1",
+    "href": "learn/slides/slides_cellular_potts.html#section-1",
+    "title": "Engage",
+    "section": "",
+    "text": "This is slide 2!"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Engage",
@@ -54,19 +68,5 @@
     "title": "Cellular Potts Model",
     "section": "",
     "text": "Cellular Potts Model\nContributed by: Bhaskar Kumawat"
-  },
-  {
-    "objectID": "learn/slides/slides_cellular_potts.html#section",
-    "href": "learn/slides/slides_cellular_potts.html#section",
-    "title": "Engage",
-    "section": "",
-    "text": "This is slide 1!"
-  },
-  {
-    "objectID": "learn/slides/slides_cellular_potts.html#section-1",
-    "href": "learn/slides/slides_cellular_potts.html#section-1",
-    "title": "Engage",
-    "section": "",
-    "text": "This is slide 2!"
   }
 ]

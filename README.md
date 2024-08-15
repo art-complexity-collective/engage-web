@@ -1,4 +1,4 @@
-# engagejs
+# engage
 
 ### Directory structure
 1. `quarto_src`: Contains the quarto qmd files to generate the website htmls. (Edit files here to change how the website looks etc)

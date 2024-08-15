@@ -7,8 +7,26 @@ format:
         theme: clean.scss
         transition: slide
         transition-speed: fast
-        width: 1500
+        width: 1400
 ---
+
+##
+:::: {.columns}
+::: {.column width=70%}
+
+```{=html}
+<iframe loading="lazy" width=800px height=400px style = " transform: scale(1.5, 1.5); transform-origin: top left;" src="../../sims/learn/cellular_potts/cellular_potts_1.html"> </iframe>
+```
+
+:::
+
+::: {.column width=30%}
+This is slide 1!
+:::
+
+:::
+
+##
 
 :::: {.columns}
 ::: {.column width=70%}
@@ -20,7 +38,7 @@ format:
 :::
 
 ::: {.column width=30%}
-Right column
+This is slide 2!
 :::
 
 :::

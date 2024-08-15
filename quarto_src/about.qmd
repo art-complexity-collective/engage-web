@@ -4,3 +4,5 @@ title: "About"
 
 A website containing interactive complex systems simulations! 
 
+Author: The Art and Complexity Collective
+

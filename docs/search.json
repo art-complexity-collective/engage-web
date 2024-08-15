@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "learn/slides/slides_cellular_potts.html#slide-title-without-.smaller",
-    "href": "learn/slides/slides_cellular_potts.html#slide-title-without-.smaller",
-    "title": "Engage",
-    "section": "Slide Title (without .smaller)",
-    "text": "Slide Title (without .smaller)\n\nBullet Point 1\nBullet Point 2"
-  },
-  {
-    "objectID": "learn/slides/slides_cellular_potts.html#slide-title-with-.smaller",
-    "href": "learn/slides/slides_cellular_potts.html#slide-title-with-.smaller",
-    "title": "Engage",
-    "section": "Slide Title (with .smaller)",
-    "text": "Slide Title (with .smaller)\n\nBullet Point 1\nBullet Point 2"
-  },
-  {
-    "objectID": "learn/slides/slides_cellular_potts.html#third-slide",
-    "href": "learn/slides/slides_cellular_potts.html#third-slide",
-    "title": "Engage",
-    "section": "Third slide",
-    "text": "Third slide"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Engage",
@@ -53,14 +32,14 @@
     "href": "docs.html",
     "title": "Documentation",
     "section": "",
-    "text": "Instructions on creating and submitting your own simulations\nRoughly 1. Fork the repository 2. Add qmd file and js files … 3. start a pull request"
+    "text": "Instructions on creating and submitting your own simulations\nRoughly 1. Fork the repository or create a branch 2. Add qmd file and js files … 3. start a pull request"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "A website containing interactive complex systems simulations!"
+    "text": "A website containing interactive complex systems simulations!\nAuthor: The Art and Complexity Collective"
   },
   {
     "objectID": "play.html",
@@ -68,5 +47,12 @@
     "title": "Engage",
     "section": "",
     "text": "This page will list the more game-y simulations."
+  },
+  {
+    "objectID": "learn/cellular_potts.html",
+    "href": "learn/cellular_potts.html",
+    "title": "Cellular Potts Model",
+    "section": "",
+    "text": "Cellular Potts Model\nContributed by: Bhaskar Kumawat"
   }
 ]

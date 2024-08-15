@@ -4,16 +4,23 @@ format:
         menu: false
         controls: true
         progress: false
+        theme: clean.scss
+        transition: slide
+        transition-speed: fast
+        width: 1500
 ---
 
-## Slide Title (without `.smaller`)
+:::: {.columns}
+::: {.column width=70%}
 
-* Bullet Point 1
-* Bullet Point 2
+```{=html}
+<iframe width=800px height=400px style = " transform: scale(1.5, 1.5); transform-origin: top left;" src="../../sims/learn/cellular_potts/cellular_potts_1.html"> </iframe>
+```
 
-## Slide Title (with `.smaller`) {.smaller}
+:::
 
-* Bullet Point 1
-* Bullet Point 2
+::: {.column width=30%}
+Right column
+:::
 
-## Third slide
+:::

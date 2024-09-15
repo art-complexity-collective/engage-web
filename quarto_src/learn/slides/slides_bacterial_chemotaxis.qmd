@@ -1,0 +1,53 @@
+---
+format: 
+    revealjs:
+        menu: false
+        controls: true
+        progress: false
+        theme: clean.scss
+        transition: slide
+        transition-speed: fast
+        width: 1400
+---
+
+##
+:::: {.columns}
+::: {.column width=70%}
+
+```{=html}
+<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_1.html"> </iframe>
+```
+
+:::
+
+::: {.column width=30%}
+
+### Bacterial Chemotaxis Test
+
+Consider the humble bacterium. It is looking for a source of nutrition.
+
+:::
+
+::::
+
+##
+
+:::: {.columns}
+::: {.column width=70%}
+
+```{=html}
+<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_1.html"> </iframe>
+```
+
+:::
+
+::: {.column width=30%}
+
+### Bacterial Chemotaxis Test 2
+
+It finds it!
+
+:::
+
+::::
+

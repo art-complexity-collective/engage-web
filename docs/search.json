@@ -1,5 +1,33 @@
 [
   {
+    "objectID": "learn.html",
+    "href": "learn.html",
+    "title": "Engage",
+    "section": "",
+    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nBacterial Chemotaxis\nCellular Potts Model"
+  },
+  {
+    "objectID": "learn.html#learn",
+    "href": "learn.html#learn",
+    "title": "Engage",
+    "section": "",
+    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nBacterial Chemotaxis\nCellular Potts Model"
+  },
+  {
+    "objectID": "docs.html",
+    "href": "docs.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Instructions on creating and submitting your own simulations\nRoughly 1. Fork the repository or create a branch 2. Add qmd file and js files … 3. start a pull request"
+  },
+  {
+    "objectID": "explore.html",
+    "href": "explore.html",
+    "title": "Engage",
+    "section": "",
+    "text": "This page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)"
+  },
+  {
     "objectID": "learn/slides/slides_cellular_potts.html#section",
     "href": "learn/slides/slides_cellular_potts.html#section",
     "title": "Engage",
@@ -14,46 +42,32 @@
     "text": "This is slide 2!"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "learn/bacterial_chemotaxis.html",
+    "href": "learn/bacterial_chemotaxis.html",
+    "title": "Bacterial Chemotaxis",
+    "section": "",
+    "text": "Bacterial Chemotaxis\nContributed by: Bhaskar Kumawat"
+  },
+  {
+    "objectID": "learn/cellular_potts.html",
+    "href": "learn/cellular_potts.html",
+    "title": "Cellular Potts Model",
+    "section": "",
+    "text": "Cellular Potts Model\nContributed by: Bhaskar Kumawat"
+  },
+  {
+    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section",
+    "href": "learn/slides/slides_bacterial_chemotaxis.html#section",
     "title": "Engage",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Bacterial Chemotaxis Test\nConsider the humble bacterium. It is looking for a source of nutrition."
   },
   {
-    "objectID": "learn.html",
-    "href": "learn.html",
+    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section-1",
+    "href": "learn/slides/slides_bacterial_chemotaxis.html#section-1",
     "title": "Engage",
     "section": "",
-    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nCellular Potts Model"
-  },
-  {
-    "objectID": "learn.html#learn",
-    "href": "learn.html#learn",
-    "title": "Engage",
-    "section": "",
-    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nCellular Potts Model"
-  },
-  {
-    "objectID": "explore.html",
-    "href": "explore.html",
-    "title": "Engage",
-    "section": "",
-    "text": "This page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)"
-  },
-  {
-    "objectID": "docs.html",
-    "href": "docs.html",
-    "title": "Documentation",
-    "section": "",
-    "text": "Instructions on creating and submitting your own simulations\nRoughly 1. Fork the repository or create a branch 2. Add qmd file and js files … 3. start a pull request"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "A website containing interactive complex systems simulations!\nAuthor: The Art and Complexity Collective"
+    "text": "Bacterial Chemotaxis Test 2\nIt finds it!"
   },
   {
     "objectID": "play.html",
@@ -63,10 +77,17 @@
     "text": "This page will list the more game-y simulations."
   },
   {
-    "objectID": "learn/cellular_potts.html",
-    "href": "learn/cellular_potts.html",
-    "title": "Cellular Potts Model",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Cellular Potts Model\nContributed by: Bhaskar Kumawat"
+    "text": "A website containing interactive complex systems simulations!\nAuthor: The Art and Complexity Collective"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Engage",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]

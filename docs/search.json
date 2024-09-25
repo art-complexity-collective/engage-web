@@ -60,14 +60,28 @@
     "href": "learn/slides/slides_bacterial_chemotaxis.html#section",
     "title": "Engage",
     "section": "",
-    "text": "Bacterial Chemotaxis Test\nConsider the humble bacterium. It is looking for a source of nutrition."
+    "text": "1\nConsider a simple bacterial cell moving around on a petri plate.\nThe cell has a heading and always moves in the direction it points.\nOnce in a while, it “tumbles”, changing its heading to a random direction.\n\nIncreasing the rate of tumbling (\\(\\gamma\\)) increases the frequency of tumbling events, decreasing the time over which the cell moves uninterrupted in a direction."
   },
   {
-    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section-1",
-    "href": "learn/slides/slides_bacterial_chemotaxis.html#section-1",
+    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section-2",
+    "href": "learn/slides/slides_bacterial_chemotaxis.html#section-2",
     "title": "Engage",
     "section": "",
-    "text": "Bacterial Chemotaxis Test 2\nIt finds it!"
+    "text": "- Add a canvas with a concetration field that can be modified by clicking/dragging the mouse\n\n- Add a slider to control the diffusivity of the source\n\n- Add a button to add a dumb bacterial cell to the plate.\n\n2\nThe experimenter decides to add a food source to the plate, say in the form of a piece of paper soaked in sucrose.\n\nAdd a source of food by clicking anywhere. Clicking multiple times in the same place increases the concetration further\n\nThis source of food diffuses into the media, creating a continuous concentration field throughout the plate.\n\nIncreasing the diffusivity (D) of the food source increases the distance over which molecules of sucrose diffuse away from the source\n\nA naive bacterial cell that does not sense this concentration field wanders around aimlessly, without every finding the food source."
+  },
+  {
+    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section-4",
+    "href": "learn/slides/slides_bacterial_chemotaxis.html#section-4",
+    "title": "Engage",
+    "section": "",
+    "text": "- Add two \"insets\" containing a dumb and an intelligent cell fixed in the center.\n\n- Add a slider that adjusts the concentration of the food in the background.\n\n- Add a slider that adjusts the coupling of the tumbling rate to the concentration of the food source.\n\n3\nNow, the experimenter decides to see what a slightly more intelligent bacterium does in this situation.\nUnlike the naive cell, this cell can sense the amount of sucrose surrounding it.\nIt subsequently regulates its rate of tumbling (\\(\\gamma\\)) based on the concentration as,\n\\[\n\\gamma = \\frac{k}{\\text{Concentration of food}}\n\\]\n\nSee how the tumbling behavior of a naive and intelligent cell changes based on the concentration of sucrose, and the coupling strength."
+  },
+  {
+    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section-6",
+    "href": "learn/slides/slides_bacterial_chemotaxis.html#section-6",
+    "title": "Engage",
+    "section": "",
+    "text": "- Add the draw-able food source canvas.\n\n- Add sliders/buttons and the option to add the bacterium.\n\n4\nThe experimenter (i.e., you) creates some food sources on the plate, adjusts the diffusivity and releases the intelligent bacteria.\n\nClick and drag to add food sources, adjust diffusivity using the slider, and add the bacterial cell with the button.\n\nModifying the coupling constant can make the cell get better or worse at locating the food source."
   },
   {
     "objectID": "play.html",

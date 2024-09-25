@@ -8,3 +8,11 @@ export function bounding_box(x,y,w,h,angle){
 
     return return_dims;
 }
+
+export function cartesian_dist(x1,y1,x2,y2){
+    return Math.sqrt(Math.pow(x1-x2,2.0)+Math.pow(y1-y2,2.0));
+}
+
+export function gaussian(x,std){
+    return Math.exp(-x*x/(2.0*std*std));
+}

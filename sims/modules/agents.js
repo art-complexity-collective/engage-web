@@ -3,7 +3,6 @@ export class AgentArena{
     constructor(p, props){
         this._props = props;
         this._layer = p.createGraphics(this._props.width, this._props.height); // Add two pixels to make a boundary
-        this._layer.rect(0, 0, this._props.width, this._props.height); // Outline box
         this._agents = [];
     }
 
@@ -19,6 +18,7 @@ export class AgentArena{
 
     update_layer_agents(){
         this._layer.clear();
+        this._layer.rect(1, 1, this._props.width-1, this._props.height-1); // Outline box
         for(let idx=0;idx<this._agents.length;idx++){
             this.update_layer_agent(idx);
         }

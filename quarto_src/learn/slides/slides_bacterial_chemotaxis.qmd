@@ -44,7 +44,7 @@ Once in a while, it "tumbles", changing its heading to a random direction.
 ::: {.column width=70%}
 
 ```{=html}
-<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_1.html"> </iframe>
+<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_2.html"> </iframe>
 ```
     - Add a canvas with a concetration field that can be modified by clicking/dragging the mouse
 

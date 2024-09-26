@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "learn.html",
-    "href": "learn.html",
-    "title": "Engage",
-    "section": "",
-    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nBacterial Chemotaxis\nCellular Potts Model"
-  },
-  {
-    "objectID": "learn.html#learn",
-    "href": "learn.html#learn",
-    "title": "Engage",
-    "section": "",
-    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nBacterial Chemotaxis\nCellular Potts Model"
-  },
-  {
-    "objectID": "docs.html",
-    "href": "docs.html",
-    "title": "Documentation",
-    "section": "",
-    "text": "Instructions on creating and submitting your own simulations\nRoughly 1. Fork the repository or create a branch 2. Add qmd file and js files … 3. start a pull request"
-  },
-  {
-    "objectID": "explore.html",
-    "href": "explore.html",
-    "title": "Engage",
-    "section": "",
-    "text": "This page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)"
-  },
-  {
     "objectID": "learn/slides/slides_cellular_potts.html#section",
     "href": "learn/slides/slides_cellular_potts.html#section",
     "title": "Engage",
@@ -42,18 +14,67 @@
     "text": "This is slide 2!"
   },
   {
-    "objectID": "learn/bacterial_chemotaxis.html",
-    "href": "learn/bacterial_chemotaxis.html",
-    "title": "Bacterial Chemotaxis",
-    "section": "",
-    "text": "Bacterial Chemotaxis\nContributed by: Bhaskar Kumawat"
-  },
-  {
     "objectID": "learn/cellular_potts.html",
     "href": "learn/cellular_potts.html",
     "title": "Cellular Potts Model",
     "section": "",
     "text": "Cellular Potts Model\nContributed by: Bhaskar Kumawat"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Engage",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "learn.html",
+    "href": "learn.html",
+    "title": "Engage",
+    "section": "",
+    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nBacterial Chemotaxis\nCellular Potts Model"
+  },
+  {
+    "objectID": "learn.html#learn",
+    "href": "learn.html#learn",
+    "title": "Engage",
+    "section": "",
+    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nBacterial Chemotaxis\nCellular Potts Model"
+  },
+  {
+    "objectID": "explore.html",
+    "href": "explore.html",
+    "title": "Engage",
+    "section": "",
+    "text": "This page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)"
+  },
+  {
+    "objectID": "docs.html",
+    "href": "docs.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Instructions on creating and submitting your own simulations\nRoughly 1. Fork the repository or create a branch 2. Add qmd file and js files … 3. start a pull request"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "A website containing interactive complex systems simulations!\nAuthor: The Art and Complexity Collective"
+  },
+  {
+    "objectID": "play.html",
+    "href": "play.html",
+    "title": "Engage",
+    "section": "",
+    "text": "This page will list the more game-y simulations."
+  },
+  {
+    "objectID": "learn/bacterial_chemotaxis.html",
+    "href": "learn/bacterial_chemotaxis.html",
+    "title": "Bacterial Chemotaxis",
+    "section": "",
+    "text": "Bacterial Chemotaxis\nContributed by: Bhaskar Kumawat"
   },
   {
     "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section",
@@ -82,26 +103,5 @@
     "title": "Engage",
     "section": "",
     "text": "- Add the draw-able food source canvas.\n\n- Add sliders/buttons and the option to add the bacterium.\n\n4\nThe experimenter (i.e., you) creates some food sources on the plate, adjusts the diffusivity and releases the intelligent bacteria.\n\nClick and drag to add food sources, adjust diffusivity using the slider, and add the bacterial cell with the button.\n\nModifying the coupling constant can make the cell get better or worse at locating the food source."
-  },
-  {
-    "objectID": "play.html",
-    "href": "play.html",
-    "title": "Engage",
-    "section": "",
-    "text": "This page will list the more game-y simulations."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "A website containing interactive complex systems simulations!\nAuthor: The Art and Complexity Collective"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Engage",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]

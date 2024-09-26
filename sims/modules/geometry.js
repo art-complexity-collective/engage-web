@@ -16,3 +16,13 @@ export function cartesian_dist(x1,y1,x2,y2){
 export function gaussian(x,std){
     return Math.exp(-x*x/(2.0*std*std));
 }
+
+export function getmax(arr) {
+    let len = arr.length;
+    let max = -Infinity;
+
+    while (len--) {
+        max = arr[len] > max ? arr[len] : max;
+    }
+    return max;
+}

@@ -28,6 +28,41 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
+    "objectID": "explore/MCMC.html",
+    "href": "explore/MCMC.html",
+    "title": "Markov Chain Monte Carlo (MCMC)",
+    "section": "",
+    "text": "Markov Chain Monte Carlo (MCMC)\nContributed by: Max Jerdee\nFrogs decide which pad to sit on based on ratios of the numbers of flies at each pad."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "A website containing interactive complex systems simulations!\nAuthor: The Art and Complexity Collective"
+  },
+  {
+    "objectID": "docs.html",
+    "href": "docs.html",
+    "title": "Documentation",
+    "section": "",
+    "text": "Instructions on creating and submitting your own simulations\nRoughly 1. Fork the repository or create a branch 2. Add qmd file and js files … 3. start a pull request"
+  },
+  {
+    "objectID": "explore.html",
+    "href": "explore.html",
+    "title": "Engage",
+    "section": "",
+    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nMarkov Chain Monte Carlo (MCMC)\n\nThis page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)"
+  },
+  {
+    "objectID": "explore.html#learn",
+    "href": "explore.html#learn",
+    "title": "Engage",
+    "section": "",
+    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nMarkov Chain Monte Carlo (MCMC)\n\nThis page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)"
+  },
+  {
     "objectID": "learn.html",
     "href": "learn.html",
     "title": "Engage",
@@ -40,27 +75,6 @@
     "title": "Engage",
     "section": "",
     "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nBacterial Chemotaxis\nCellular Potts Model"
-  },
-  {
-    "objectID": "explore.html",
-    "href": "explore.html",
-    "title": "Engage",
-    "section": "",
-    "text": "This page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)"
-  },
-  {
-    "objectID": "docs.html",
-    "href": "docs.html",
-    "title": "Documentation",
-    "section": "",
-    "text": "Instructions on creating and submitting your own simulations\nRoughly 1. Fork the repository or create a branch 2. Add qmd file and js files … 3. start a pull request"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "A website containing interactive complex systems simulations!\nAuthor: The Art and Complexity Collective"
   },
   {
     "objectID": "play.html",

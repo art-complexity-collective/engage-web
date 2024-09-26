@@ -46,15 +46,15 @@ class SimpleBac{
         this.x += this.v*Math.cos(this.angle*(Math.PI/180.0));
         this.y += this.v*Math.sin(this.angle*(Math.PI/180.0));
 
-        if(this.x < arena_dims.x){
+        if(this.x < 0){
             this.x = arena_dims.width+this.x;
-        } else if (this.x > arena_dims.x+arena_dims.width) {
+        } else if (this.x > arena_dims.width) {
             this.x = this.x-arena_dims.width;
         }
 
-        if(this.y < arena_dims.y){
+        if(this.y < 0){
             this.y = arena_dims.height+this.y;
-        } else if (this.y > arena_dims.y+arena_dims.height) {
+        } else if (this.y > arena_dims.height) {
             this.y = this.y - arena_dims.height;
         }
     }

@@ -1,5 +1,6 @@
 import { ScalarField } from "../../modules/fields.js"
-import { Slider } from "../../modules/ui.js"
+import { Slider, Button } from "../../modules/ui.js"
+import { Agent, AgentArena } from "../../modules/agents.js"
 
 const canvas_props = {width: 900, height: 700};
 
@@ -8,6 +9,15 @@ const arena_props = {
     y: 5,
     width: 800,
     height: 600};
+
+
+const add_bac_button_props = {
+    x: 300,
+    y: 620,
+    height: 60,
+    width: 100,
+    label: "Add Naive Bacteria"
+}
 
 // const trate_slider_props = {
 //     x: 300,
@@ -34,44 +44,44 @@ const arena_props = {
 // };  
 
 
-// class SimpleBac{
-//     constructor(x=100,y=100,angle=0,v=1){
-//         this.x = x;
-//         this.y = y;
-//         this.angle = angle;
-//         this.v = v;
-//     }
+class SimpleBac{
+    constructor(x=100,y=100,angle=0,v=1){
+        this.x = x;
+        this.y = y;
+        this.angle = angle;
+        this.v = v;
+    }
     
-//     move(arena_dims){
-//         this.x += this.v*Math.cos(this.angle*(Math.PI/180.0));
-//         this.y += this.v*Math.sin(this.angle*(Math.PI/180.0));
+    move(arena_dims){
+        this.x += this.v*Math.cos(this.angle*(Math.PI/180.0));
+        this.y += this.v*Math.sin(this.angle*(Math.PI/180.0));
 
-//         if(this.x < arena_dims.x){
-//             this.x = arena_dims.width+this.x;
-//         } else if (this.x > arena_dims.x+arena_dims.width) {
-//             this.x = this.x-arena_dims.width;
-//         }
+        if(this.x < arena_dims.x){
+            this.x = arena_dims.width+this.x;
+        } else if (this.x > arena_dims.x+arena_dims.width) {
+            this.x = this.x-arena_dims.width;
+        }
 
-//         if(this.y < arena_dims.y){
-//             this.y = arena_dims.height+this.y;
-//         } else if (this.y > arena_dims.y+arena_dims.height) {
-//             this.y = this.y - arena_dims.height;
-//         }
-//     }
+        if(this.y < arena_dims.y){
+            this.y = arena_dims.height+this.y;
+        } else if (this.y > arena_dims.y+arena_dims.height) {
+            this.y = this.y - arena_dims.height;
+        }
+    }
 
-//     turn_random(){
-//         this.angle = Math.random() * 360;
-//     }
+    turn_random(){
+        this.angle = Math.random() * 360;
+    }
 
-//     set_velocity(value){
-//         this.v = value;
-//     }
+    set_velocity(value){
+        this.v = value;
+    }
 
-// }
+}
 
 const sketch = (p) => {
     
-    let food_field; //arena, trate_slider, agentid, bacteria, 
+    let food_field, addbac_button, arena; //arena, trate_slider, agentid, bacteria, 
 
     function draw_source_at_mouse(){
         food_field.add_gaussian_source(p.mouseX-arena_props.x, p.mouseY-arena_props.y, 100, 30);
@@ -81,15 +91,16 @@ const sketch = (p) => {
         let canvas = p.createCanvas(canvas_props.width, canvas_props.height);
 
         food_field = new ScalarField(p, arena_props);
-        //food_field.add_gaussian_source(400,300,100,30);
-        //food_field.add_gaussian_source(500,300,100,10);
-        canvas.mouseClicked(draw_source_at_mouse);
-        // arena = new AgentArena(p, arena_props);
-        // trate_slider = new Slider(p, trate_slider_props);
+        food_field.add_gaussian_source(400,300,100,30);
+        food_field.add_gaussian_source(500,300,100,30);
+        // canvas.mouseClicked(draw_source_at_mouse);
+        arena = new AgentArena(p, arena_props);
+        addbac_button = new Button(p, add_bac_button_props);
+        //trate_slider = new Slider(p, trate_slider_props);
 
-        // agentid = arena.add_agent(particle_props);
+        //agentid = arena.add_agent(particle_props);
 
-        // bacteria = new SimpleBac(400, 300, 45, 5);
+        //bacteria = new SimpleBac(400, 300, 45, 5);
 
         p.pixelDensity(3);
     }
@@ -113,6 +124,8 @@ const sketch = (p) => {
 
         // arena.draw(p);
         // trate_slider.draw(p);
+
+        addbac_button.draw(p);
 
         // Draw the framerate
         p.text(p.frameRate(),0,10);

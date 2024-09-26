@@ -1,1 +1,6 @@
+## Learn 
+Simulations aimed at teaching new concepts in an interactive manner.
+ 
+1. [Markov Chain Monte Carlo (MCMC)](./explore/MCMC.qmd)
+
 This page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)

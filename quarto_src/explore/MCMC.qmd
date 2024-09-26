@@ -1,0 +1,23 @@
+---
+format:
+    html:
+        page-layout: article
+---
+
+:::{.column-page}
+# Markov Chain Monte Carlo (MCMC)
+Contributed by: Max Jerdee
+
+Frogs decide which pad to sit on based on ratios of the numbers of flies at each pad.
+:::  
+
+:::{.column-screen}
+```{=html}
+<center>
+<div style="height: 70vh;"> 
+<iframe style="display: block; width: 90%; height:100%; frameborder:0;" src="../sims/explore/MCMC/MCMC.html">
+</iframe>
+</div>
+</center>
+```
+:::

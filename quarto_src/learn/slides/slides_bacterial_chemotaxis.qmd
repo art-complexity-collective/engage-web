@@ -7,8 +7,9 @@ format:
         theme: clean.scss
         transition: slide
         transition-speed: fast
-        width: 1400
+        width: 1600
         smaller: true
+        preload-iframes: false
 ---
 
 ##
@@ -16,7 +17,7 @@ format:
 ::: {.column width=70%}
 
 ```{=html}
-<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_1.html"> </iframe>
+<iframe loading="lazy" width=900px height=700px data-src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_1.html"> </iframe>
 ```
 :::
 
@@ -44,7 +45,7 @@ Once in a while, it "tumbles", changing its heading to a random direction.
 ::: {.column width=70%}
 
 ```{=html}
-<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_2.html"> </iframe>
+<iframe loading="lazy" width=900px height=700px data-src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_2.html"> </iframe>
 ```
 
 :::
@@ -72,7 +73,7 @@ A *naive* bacterial cell (brown) that does not sense this concentration field wa
 ::: {.column width=70%}
 
 ```{=html}
-<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_3.html"> </iframe>
+<iframe loading="lazy" width=900px height=700px data-src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_3.html"> </iframe>
 ```
 
 :::
@@ -80,17 +81,13 @@ A *naive* bacterial cell (brown) that does not sense this concentration field wa
 ::: {.column width=30%}
 
 ### 3
-Now, the experimenter decides to see what a slightly more intelligent bacterium (blue cell) does in this situation.
-
-Unlike the naive cell, this cell can *sense* the amount of sucrose surrounding it. 
-
-It subsequently regulates its rate of tumbling ($\gamma$) based on the concentrations as,
+The experimenter decides to see what a smarter bacterium (blue cell) does in this situation. Unlike the naive cell, this cell can *sense* the amount of sucrose surrounding it. It subsequently regulates its rate of tumbling ($\gamma$) based on the concentrations as,
 
 $$ 
 \gamma =\frac{1}{2}e^{-\Delta_{\text{food}}}
 $$
 
-Where $\Delta_{\text{food}}$ is the difference in the concentration of food the smart cell encounters within a small time. 
+Where $\Delta_{\text{food}}$ is the difference in the concentration of food encountered in a small time. 
 
 ::: {style="font-size: 80%"}
 *Draw some food sources to see what the naive and smart bacterial cells do.*
@@ -99,7 +96,7 @@ Where $\Delta_{\text{food}}$ is the difference in the concentration of food the 
 A better way to observe the difference is to look at multiple cells of these two types and see what they do as a group.
 
 ::: {style="font-size: 80%"}
-*Use the buttons to add some naive and smart cells and observe whether they are able to find the food soruce. You can add more food sources by clicking on the canvas if you wish.*
+*Use the buttons to add more naive and smart cells and observe whether their behaviour!*
 :::
 
 :::

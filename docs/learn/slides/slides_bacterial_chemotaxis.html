@@ -329,7 +329,7 @@
 <h2></h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<iframe loading="lazy" width="900px" height="700px" src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_1.html"> </iframe>
+<iframe loading="lazy" width="900px" height="700px" data-src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_1.html"> </iframe>
 </div><div class="column" style="width:30%;">
 <h3 id="section-1">1</h3>
 <p>Consider a simple bacterial cell moving around on a petri plate.</p>
@@ -344,7 +344,7 @@
 <h2></h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<iframe loading="lazy" width="900px" height="700px" src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_2.html"> </iframe>
+<iframe loading="lazy" width="900px" height="700px" data-src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_2.html"> </iframe>
 </div><div class="column" style="width:30%;">
 <h3 id="section-3">2</h3>
 <p>The experimenter decides to add a food source to the plate, say in the form of a piece of paper soaked in sucrose.</p>
@@ -359,22 +359,20 @@
 <h2></h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<iframe loading="lazy" width="900px" height="700px" src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_3.html"> </iframe>
+<iframe loading="lazy" width="900px" height="700px" data-src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_3.html"> </iframe>
 </div><div class="column" style="width:30%;">
 <h3 id="section-5">3</h3>
-<p>Now, the experimenter decides to see what a slightly more intelligent bacterium (blue cell) does in this situation.</p>
-<p>Unlike the naive cell, this cell can <em>sense</em> the amount of sucrose surrounding it.</p>
-<p>It subsequently regulates its rate of tumbling (<span class="math inline">\(\gamma\)</span>) based on the concentrations as,</p>
+<p>The experimenter decides to see what a smarter bacterium (blue cell) does in this situation. Unlike the naive cell, this cell can <em>sense</em> the amount of sucrose surrounding it. It subsequently regulates its rate of tumbling (<span class="math inline">\(\gamma\)</span>) based on the concentrations as,</p>
 <p><span class="math display">\[
 \gamma =\frac{1}{2}e^{-\Delta_{\text{food}}}
 \]</span></p>
-<p>Where <span class="math inline">\(\Delta_{\text{food}}\)</span> is the difference in the concentration of food the smart cell encounters within a small time.</p>
+<p>Where <span class="math inline">\(\Delta_{\text{food}}\)</span> is the difference in the concentration of food encountered in a small time.</p>
 <div style="font-size: 80%">
 <p><em>Draw some food sources to see what the naive and smart bacterial cells do.</em></p>
 </div>
 <p>A better way to observe the difference is to look at multiple cells of these two types and see what they do as a group.</p>
 <div style="font-size: 80%">
-<p><em>Use the buttons to add some naive and smart cells and observe whether they are able to find the food soruce. You can add more food sources by clicking on the canvas if you wish.</em></p>
+<p><em>Use the buttons to add more naive and smart cells and observe whether their behaviour!</em></p>
 </div>
 </div></div>
 
@@ -506,7 +504,7 @@
         autoPlayMedia: null,
 
         // Global override for preloading lazy-loaded iframes (null/true/false)
-        preloadIframes: null,
+        preloadIframes: false,
 
         // Number of milliseconds between automatically proceeding to the
         // next slide, disabled when set to 0, this value can be overwritten
@@ -560,7 +558,7 @@
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
-        width: 1400,
+        width: 1600,
 
         height: 700,
 

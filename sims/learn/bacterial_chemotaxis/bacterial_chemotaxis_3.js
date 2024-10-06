@@ -182,7 +182,7 @@ const sketch = (p) => {
         // Drawing
         food_field.draw(p);
         arena.draw(p);
-        p.text(p.frameRate(),0,10); //framerate
+        //p.text(p.frameRate(),0,10); //framerate
     }
 };
 

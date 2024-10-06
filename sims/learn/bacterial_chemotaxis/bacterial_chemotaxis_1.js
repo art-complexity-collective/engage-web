@@ -106,7 +106,7 @@ const sketch = (p) => {
         trate_slider.draw(p);
 
         // Draw the framerate
-        p.text(p.frameRate(),0,10);
+        //p.text(p.frameRate(),0,10);
     }
 };
 

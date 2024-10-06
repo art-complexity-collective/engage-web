@@ -29,8 +29,8 @@ const particle_props = {
     width: 20,
     angle: 45,
     radius: 5,
-    shape: 'pointed circ',
-    color: "#000000"
+    // shape: 'pointed circ',
+    color: "#b8515f"
 };  
 
 
@@ -81,7 +81,7 @@ const sketch = (p) => {
 
         agentid = arena.add_agent(particle_props);
 
-        bacteria = new SimpleBac(400, 300, 45, 5);
+        bacteria = new SimpleBac(400, 300, 45, 3);
 
         
         p.pixelDensity(3);
@@ -89,14 +89,6 @@ const sketch = (p) => {
     
     p.draw = () => {
         p.background(255);
-        
-        // Draw outline
-        // p.push();
-        // p.fill(0,0,0,0);
-        // p.stroke(1);
-        // p.strokeWeight(2);
-        // p.rect(0,0,canvas_props.width,canvas_props.height);
-        // p.pop();
 
         // Simulation logic
         if(Math.random()>1.0-trate_slider.get_value()){

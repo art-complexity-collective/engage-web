@@ -1,5 +1,75 @@
 [
   {
+    "objectID": "learn.html",
+    "href": "learn.html",
+    "title": "Engage",
+    "section": "",
+    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nBacterial Chemotaxis\nCellular Potts Model"
+  },
+  {
+    "objectID": "learn.html#learn",
+    "href": "learn.html#learn",
+    "title": "Engage",
+    "section": "",
+    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nBacterial Chemotaxis\nCellular Potts Model"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Engage",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "A website containing interactive complex systems simulations!\nAuthor: The Art and Complexity Collective"
+  },
+  {
+    "objectID": "play.html",
+    "href": "play.html",
+    "title": "Engage",
+    "section": "",
+    "text": "This page will list the more game-y simulations."
+  },
+  {
+    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section",
+    "href": "learn/slides/slides_bacterial_chemotaxis.html#section",
+    "title": "Engage",
+    "section": "",
+    "text": "1\nConsider a simple bacterial cell moving around on a petri plate.\nThe cell has a heading and always moves in the direction it points.\nOnce in a while, it “tumbles”, changing its heading to a random direction.\n\nIncreasing the rate of tumbling (\\(\\gamma\\)) increases the frequency of tumbling events, decreasing the time over which the cell moves uninterrupted in a direction."
+  },
+  {
+    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section-2",
+    "href": "learn/slides/slides_bacterial_chemotaxis.html#section-2",
+    "title": "Engage",
+    "section": "",
+    "text": "2\nThe experimenter decides to add a food source to the plate, say in the form of a piece of paper soaked in sucrose.\n\nAdd a source of food by clicking anywhere. Clicking multiple times in the same place increases the concetration further\n\nThis source of food diffuses into the media, creating a continuous concentration field throughout the plate.\nA naive bacterial cell (brown) that does not sense this concentration field wanders around aimlessly, without localizing on the source, even if the tumble rate is changed."
+  },
+  {
+    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section-4",
+    "href": "learn/slides/slides_bacterial_chemotaxis.html#section-4",
+    "title": "Engage",
+    "section": "",
+    "text": "3\nNow, the experimenter decides to see what a slightly more intelligent bacterium (blue cell) does in this situation.\nUnlike the naive cell, this cell can sense the amount of sucrose surrounding it.\nIt subsequently regulates its rate of tumbling (\\(\\gamma\\)) based on the concentrations as,\n\\[\n\\gamma =\\frac{1}{2}e^{-\\Delta_{\\text{food}}}\n\\]\nWhere \\(\\Delta_{\\text{food}}\\) is the difference in the concentration of food the smart cell encounters within a small time.\n\nDraw some food sources to see what the naive and smart bacterial cells do.\n\nA better way to observe the difference is to look at multiple cells of these two types and see what they do as a group.\n\nUse the buttons to add some naive and smart cells and observe whether they are able to find the food soruce. You can add more food sources by clicking on the canvas if you wish."
+  },
+  {
+    "objectID": "learn/cellular_potts.html",
+    "href": "learn/cellular_potts.html",
+    "title": "Cellular Potts Model",
+    "section": "",
+    "text": "Cellular Potts Model\nContributed by: Bhaskar Kumawat"
+  },
+  {
+    "objectID": "learn/bacterial_chemotaxis.html",
+    "href": "learn/bacterial_chemotaxis.html",
+    "title": "Bacterial Chemotaxis",
+    "section": "",
+    "text": "Bacterial Chemotaxis\nContributed by: Bhaskar Kumawat"
+  },
+  {
     "objectID": "learn/slides/slides_cellular_potts.html#section",
     "href": "learn/slides/slides_cellular_potts.html#section",
     "title": "Engage",
@@ -12,41 +82,6 @@
     "title": "Engage",
     "section": "",
     "text": "This is slide 2!"
-  },
-  {
-    "objectID": "learn/cellular_potts.html",
-    "href": "learn/cellular_potts.html",
-    "title": "Cellular Potts Model",
-    "section": "",
-    "text": "Cellular Potts Model\nContributed by: Bhaskar Kumawat"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Engage",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "explore/MCMC.html",
-    "href": "explore/MCMC.html",
-    "title": "Markov Chain Monte Carlo (MCMC)",
-    "section": "",
-    "text": "Markov Chain Monte Carlo (MCMC)\nContributed by: Max Jerdee\nFrogs decide which pad to sit on based on ratios of the numbers of flies at each pad."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "A website containing interactive complex systems simulations!\nAuthor: The Art and Complexity Collective"
-  },
-  {
-    "objectID": "docs.html",
-    "href": "docs.html",
-    "title": "Documentation",
-    "section": "",
-    "text": "Instructions on creating and submitting your own simulations\nRoughly 1. Fork the repository or create a branch 2. Add qmd file and js files … 3. start a pull request"
   },
   {
     "objectID": "explore.html",
@@ -63,59 +98,17 @@
     "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nMarkov Chain Monte Carlo (MCMC)\n\nThis page will list one-shot simulations that are mostly there for the visuals. (Or as a default collector of new simulations)"
   },
   {
-    "objectID": "learn.html",
-    "href": "learn.html",
-    "title": "Engage",
+    "objectID": "docs.html",
+    "href": "docs.html",
+    "title": "Documentation",
     "section": "",
-    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nBacterial Chemotaxis\nCellular Potts Model"
+    "text": "Instructions on creating and submitting your own simulations\nRoughly 1. Fork the repository or create a branch 2. Add qmd file and js files … 3. start a pull request"
   },
   {
-    "objectID": "learn.html#learn",
-    "href": "learn.html#learn",
-    "title": "Engage",
+    "objectID": "explore/MCMC.html",
+    "href": "explore/MCMC.html",
+    "title": "Markov Chain Monte Carlo (MCMC)",
     "section": "",
-    "text": "Simulations aimed at teaching new concepts in an interactive manner.\n\nBacterial Chemotaxis\nCellular Potts Model"
-  },
-  {
-    "objectID": "play.html",
-    "href": "play.html",
-    "title": "Engage",
-    "section": "",
-    "text": "This page will list the more game-y simulations."
-  },
-  {
-    "objectID": "learn/bacterial_chemotaxis.html",
-    "href": "learn/bacterial_chemotaxis.html",
-    "title": "Bacterial Chemotaxis",
-    "section": "",
-    "text": "Bacterial Chemotaxis\nContributed by: Bhaskar Kumawat"
-  },
-  {
-    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section",
-    "href": "learn/slides/slides_bacterial_chemotaxis.html#section",
-    "title": "Engage",
-    "section": "",
-    "text": "1\nConsider a simple bacterial cell moving around on a petri plate.\nThe cell has a heading and always moves in the direction it points.\nOnce in a while, it “tumbles”, changing its heading to a random direction.\n\nIncreasing the rate of tumbling (\\(\\gamma\\)) increases the frequency of tumbling events, decreasing the time over which the cell moves uninterrupted in a direction."
-  },
-  {
-    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section-2",
-    "href": "learn/slides/slides_bacterial_chemotaxis.html#section-2",
-    "title": "Engage",
-    "section": "",
-    "text": "- Add a canvas with a concetration field that can be modified by clicking/dragging the mouse\n\n- Add a slider to control the diffusivity of the source\n\n- Add a button to add a dumb bacterial cell to the plate.\n\n2\nThe experimenter decides to add a food source to the plate, say in the form of a piece of paper soaked in sucrose.\n\nAdd a source of food by clicking anywhere. Clicking multiple times in the same place increases the concetration further\n\nThis source of food diffuses into the media, creating a continuous concentration field throughout the plate.\n\nIncreasing the diffusivity (D) of the food source increases the distance over which molecules of sucrose diffuse away from the source\n\nA naive bacterial cell that does not sense this concentration field wanders around aimlessly, without every finding the food source."
-  },
-  {
-    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section-4",
-    "href": "learn/slides/slides_bacterial_chemotaxis.html#section-4",
-    "title": "Engage",
-    "section": "",
-    "text": "- Add two \"insets\" containing a dumb and an intelligent cell fixed in the center.\n\n- Add a slider that adjusts the concentration of the food in the background.\n\n- Add a slider that adjusts the coupling of the tumbling rate to the concentration of the food source.\n\n3\nNow, the experimenter decides to see what a slightly more intelligent bacterium does in this situation.\nUnlike the naive cell, this cell can sense the amount of sucrose surrounding it.\nIt subsequently regulates its rate of tumbling (\\(\\gamma\\)) based on the concentration as,\n\\[\n\\gamma = \\frac{k}{\\text{Concentration of food}}\n\\]\n\nSee how the tumbling behavior of a naive and intelligent cell changes based on the concentration of sucrose, and the coupling strength."
-  },
-  {
-    "objectID": "learn/slides/slides_bacterial_chemotaxis.html#section-6",
-    "href": "learn/slides/slides_bacterial_chemotaxis.html#section-6",
-    "title": "Engage",
-    "section": "",
-    "text": "- Add the draw-able food source canvas.\n\n- Add sliders/buttons and the option to add the bacterium.\n\n4\nThe experimenter (i.e., you) creates some food sources on the plate, adjusts the diffusivity and releases the intelligent bacteria.\n\nClick and drag to add food sources, adjust diffusivity using the slider, and add the bacterial cell with the button.\n\nModifying the coupling constant can make the cell get better or worse at locating the food source."
+    "text": "Markov Chain Monte Carlo (MCMC)\nContributed by: Max Jerdee\nFrogs decide which pad to sit on based on ratios of the numbers of flies at each pad."
   }
 ]

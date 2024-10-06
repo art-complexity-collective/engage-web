@@ -8,9 +8,9 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.551">
+  <meta name="generator" content="quarto-1.5.54">
 
-  <title>Engage</title>
+  <title>Engage – slides_bacterial_chemotaxis</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -338,19 +338,13 @@
 <div style="font-size: 80%">
 <p><em>Increasing the <strong>rate of tumbling</strong> (<span class="math inline">\(\gamma\)</span>) increases the frequency of tumbling events, decreasing the time over which the cell moves uninterrupted in a direction.</em></p>
 </div>
-</div>
-</div>
+</div></div>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
 <div class="columns">
 <div class="column" style="width:70%;">
 <iframe loading="lazy" width="900px" height="700px" src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_2.html"> </iframe>
-<pre><code>- Add a canvas with a concetration field that can be modified by clicking/dragging the mouse
-
-- Add a slider to control the diffusivity of the source
-
-- Add a button to add a dumb bacterial cell to the plate.</code></pre>
 </div><div class="column" style="width:30%;">
 <h3 id="section-3">2</h3>
 <p>The experimenter decides to add a food source to the plate, say in the form of a piece of paper soaked in sucrose.</p>
@@ -358,58 +352,31 @@
 <p><em>Add a source of food by clicking anywhere. Clicking multiple times in the same place increases the concetration further</em></p>
 </div>
 <p>This source of food diffuses into the media, creating a continuous concentration field throughout the plate.</p>
-<div style="font-size: 80%">
-<p><em>Increasing the <strong>diffusivity</strong> (D) of the food source increases the distance over which molecules of sucrose diffuse away from the source</em></p>
-</div>
-<p>A <em>naive</em> bacterial cell that does not sense this concentration field wanders around aimlessly, without every finding the food source.</p>
-</div>
-</div>
+<p>A <em>naive</em> bacterial cell (brown) that does not sense this concentration field wanders around aimlessly, without localizing on the source, even if the tumble rate is changed.</p>
+</div></div>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<!-- ```{=html}
-<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_1.html"> </iframe>
-``` -->
-<pre><code>- Add two "insets" containing a dumb and an intelligent cell fixed in the center.
-
-- Add a slider that adjusts the concentration of the food in the background.
-
-- Add a slider that adjusts the coupling of the tumbling rate to the concentration of the food source.</code></pre>
+<iframe loading="lazy" width="900px" height="700px" src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_3.html"> </iframe>
 </div><div class="column" style="width:30%;">
 <h3 id="section-5">3</h3>
-<p>Now, the experimenter decides to see what a slightly more intelligent bacterium does in this situation.</p>
+<p>Now, the experimenter decides to see what a slightly more intelligent bacterium (blue cell) does in this situation.</p>
 <p>Unlike the naive cell, this cell can <em>sense</em> the amount of sucrose surrounding it.</p>
-<p>It subsequently regulates its rate of tumbling (<span class="math inline">\(\gamma\)</span>) based on the concentration as,</p>
+<p>It subsequently regulates its rate of tumbling (<span class="math inline">\(\gamma\)</span>) based on the concentrations as,</p>
 <p><span class="math display">\[
-\gamma = \frac{k}{\text{Concentration of food}}
+\gamma =\frac{1}{2}e^{-\Delta_{\text{food}}}
 \]</span></p>
+<p>Where <span class="math inline">\(\Delta_{\text{food}}\)</span> is the difference in the concentration of food the smart cell encounters within a small time.</p>
 <div style="font-size: 80%">
-<p><em>See how the tumbling behavior of a naive and intelligent cell changes based on the concentration of sucrose, and the coupling strength.</em></p>
+<p><em>Draw some food sources to see what the naive and smart bacterial cells do.</em></p>
 </div>
-</div>
-</div>
-</section>
-<section id="section-6" class="slide level2">
-<h2></h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<!-- ```{=html}
-<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_1.html"> </iframe>
-``` -->
-<pre><code>- Add the draw-able food source canvas.
-
-- Add sliders/buttons and the option to add the bacterium.</code></pre>
-</div><div class="column" style="width:30%;">
-<h3 id="section-7">4</h3>
-<p>The experimenter (i.e., you) creates some food sources on the plate, adjusts the diffusivity and releases the intelligent bacteria.</p>
+<p>A better way to observe the difference is to look at multiple cells of these two types and see what they do as a group.</p>
 <div style="font-size: 80%">
-<p><em>Click and drag to add food sources, adjust diffusivity using the slider, and add the bacterial cell with the button.</em></p>
+<p><em>Use the buttons to add some naive and smart cells and observe whether they are able to find the food soruce. You can add more food sources by clicking on the canvas if you wish.</em></p>
 </div>
-<p>Modifying the coupling constant can make the cell get better or worse at locating the food source.</p>
-</div>
-</div>
+</div></div>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
@@ -659,18 +626,7 @@
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -702,7 +658,29 @@
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -710,7 +688,7 @@
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
         // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {

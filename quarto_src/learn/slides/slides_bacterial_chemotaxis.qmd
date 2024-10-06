@@ -46,11 +46,6 @@ Once in a while, it "tumbles", changing its heading to a random direction.
 ```{=html}
 <iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_2.html"> </iframe>
 ```
-    - Add a canvas with a concetration field that can be modified by clicking/dragging the mouse
-
-    - Add a slider to control the diffusivity of the source
-
-    - Add a button to add a dumb bacterial cell to the plate.
 
 :::
 
@@ -65,11 +60,7 @@ The experimenter decides to add a food source to the plate, say in the form of a
 
 This source of food diffuses into the media, creating a continuous concentration field throughout the plate.
 
-::: {style="font-size: 80%"}
-*Increasing the **diffusivity** (D) of the food source increases the distance over which molecules of sucrose diffuse away from the source*
-:::
-
-A *naive* bacterial cell that does not sense this concentration field wanders around aimlessly, without every finding the food source.
+A *naive* bacterial cell (brown) that does not sense this concentration field wanders around aimlessly, without localizing on the source, even if the tumble rate is changed. 
 
 :::
 
@@ -80,67 +71,40 @@ A *naive* bacterial cell that does not sense this concentration field wanders ar
 :::: {.columns}
 ::: {.column width=70%}
 
-<!-- ```{=html}
-<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_1.html"> </iframe>
-``` -->
-    - Add two "insets" containing a dumb and an intelligent cell fixed in the center.
-
-    - Add a slider that adjusts the concentration of the food in the background.
-
-    - Add a slider that adjusts the coupling of the tumbling rate to the concentration of the food source.
+```{=html}
+<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_3.html"> </iframe>
+```
 
 :::
 
 ::: {.column width=30%}
 
 ### 3
-Now, the experimenter decides to see what a slightly more intelligent bacterium does in this situation.
+Now, the experimenter decides to see what a slightly more intelligent bacterium (blue cell) does in this situation.
 
 Unlike the naive cell, this cell can *sense* the amount of sucrose surrounding it. 
 
-It subsequently regulates its rate of tumbling ($\gamma$) based on the concentration as,
+It subsequently regulates its rate of tumbling ($\gamma$) based on the concentrations as,
 
 $$ 
-\gamma = \frac{k}{\text{Concentration of food}}
+\gamma =\frac{1}{2}e^{-\Delta_{\text{food}}}
 $$
 
+Where $\Delta_{\text{food}}$ is the difference in the concentration of food the smart cell encounters within a small time. 
+
 ::: {style="font-size: 80%"}
-*See how the tumbling behavior of a naive and intelligent cell changes based on the concentration of sucrose, and the coupling strength.*
+*Draw some food sources to see what the naive and smart bacterial cells do.*
 :::
 
+A better way to observe the difference is to look at multiple cells of these two types and see what they do as a group.
+
+::: {style="font-size: 80%"}
+*Use the buttons to add some naive and smart cells and observe whether they are able to find the food soruce. You can add more food sources by clicking on the canvas if you wish.*
+:::
 
 :::
 
 ::::
 
-##
 
-:::: {.columns}
-::: {.column width=70%}
-
-<!-- ```{=html}
-<iframe loading="lazy" width=900px height=700px src="../../sims/learn/bacterial_chemotaxis/bacterial_chemotaxis_1.html"> </iframe>
-``` -->
-    - Add the draw-able food source canvas.
-
-    - Add sliders/buttons and the option to add the bacterium.
-
-:::
-
-::: {.column width=30%}
-
-### 4
-The experimenter (i.e., you) creates some food sources on the plate, adjusts the diffusivity and releases the intelligent bacteria.
-
-::: {style="font-size: 80%"}
-*Click and drag to add food sources, adjust diffusivity using the slider, and add the bacterial cell with the button.*
-:::
-
-Modifying the coupling constant can make the cell get better or worse at locating the food source.
-
-
-
-:::
-
-::::
 

@@ -42,4 +42,23 @@ cursor: pointer;
     /* Border radius gives rounded corners, if they're big enough, you end up with circles */
     border-radius: 3px;
 }
-  
+
+
+/************ BUTTONS ****************/
+.engButtons{
+    font-size:18px;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    color: black;
+    background: white;
+}
+
+.engButtons:hover{
+    background: #cccccc;
+}
+
+.engButtons:active{
+    background: black;
+    color: white;
+}

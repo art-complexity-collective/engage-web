@@ -43,4 +43,8 @@ export class Button{
     draw(p){
         p.image(this._layer, this._props.x, this._props.y);
     }
+
+    mouseClicked(fn){
+        this._buttonobj.mouseClicked(fn);
+    }
 }

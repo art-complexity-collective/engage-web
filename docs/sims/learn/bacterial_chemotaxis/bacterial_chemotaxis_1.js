@@ -29,8 +29,8 @@ const particle_props = {
     width: 20,
     angle: 45,
     radius: 5,
-    shape: 'pointed circ',
-    color: "#000000"
+    // shape: 'pointed circ',
+    color: "#b8515f"
 };  
 
 
@@ -46,15 +46,15 @@ class SimpleBac{
         this.x += this.v*Math.cos(this.angle*(Math.PI/180.0));
         this.y += this.v*Math.sin(this.angle*(Math.PI/180.0));
 
-        if(this.x < arena_dims.x){
+        if(this.x < 0){
             this.x = arena_dims.width+this.x;
-        } else if (this.x > arena_dims.x+arena_dims.width) {
+        } else if (this.x > arena_dims.width) {
             this.x = this.x-arena_dims.width;
         }
 
-        if(this.y < arena_dims.y){
+        if(this.y < 0){
             this.y = arena_dims.height+this.y;
-        } else if (this.y > arena_dims.y+arena_dims.height) {
+        } else if (this.y > arena_dims.height) {
             this.y = this.y - arena_dims.height;
         }
     }
@@ -81,7 +81,7 @@ const sketch = (p) => {
 
         agentid = arena.add_agent(particle_props);
 
-        bacteria = new SimpleBac(400, 300, 45, 5);
+        bacteria = new SimpleBac(400, 300, 45, 3);
 
         
         p.pixelDensity(3);
@@ -89,14 +89,6 @@ const sketch = (p) => {
     
     p.draw = () => {
         p.background(255);
-        
-        // Draw outline
-        // p.push();
-        // p.fill(0,0,0,0);
-        // p.stroke(1);
-        // p.strokeWeight(2);
-        // p.rect(0,0,canvas_props.width,canvas_props.height);
-        // p.pop();
 
         // Simulation logic
         if(Math.random()>1.0-trate_slider.get_value()){
